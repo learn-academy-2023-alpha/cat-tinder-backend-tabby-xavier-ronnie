@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "rspec-rails", "~> 6.0"
+gem 'rack-cors', :require => 'rack/cors'
